@@ -10,7 +10,7 @@ The notebooks are used to practice:
 
 - Python for data analysis
 - Jupyter Notebook workflows
-- Pandas basics and data manipulation
+- Pandas basics, cleaning, grouping, reshaping, and joins
 - Exploratory Data Analysis concepts
 - Clean, repeatable notebook habits
 - Version control for learning projects
@@ -22,6 +22,7 @@ juypter/
 +-- numpy1.ipynb
 +-- pandas.ipynb
 +-- numpy2.ipynb
++-- obesity_prediction.csv
 +-- venv/
 `-- README.md
 ```
@@ -33,7 +34,7 @@ The learning path in this folder starts with Data Science first:
 1. Python basics for analysis
 2. Jupyter Notebook usage
 3. NumPy fundamentals
-4. Pandas for data cleaning and transformation
+4. Pandas for data cleaning, transformation, grouping, reshaping, and joins
 5. Data visualization with Matplotlib and Seaborn
 6. Exploratory Data Analysis
 7. Statistics for Data Science
@@ -142,6 +143,30 @@ Then open one of the notebooks:
 - `numpy1.ipynb`
 - `pandas.ipynb`
 - `numpy2.ipynb`
+
+## Notebook Guide
+
+### `pandas.ipynb`
+
+The Pandas notebook is a complete structured tutorial that starts from the basics and moves toward advanced data manipulation. It uses small example DataFrames for clarity and `obesity_prediction.csv` for realistic practice.
+
+Main topics covered:
+
+- Series and DataFrame creation
+- CSV reading and export examples
+- Data inspection with `head`, `info`, `describe`, missing values, and counts
+- Row and column selection with `loc`, `iloc`, `at`, and `iat`
+- Filtering, sorting, and conditional logic
+- Column creation, update, insert, and drop operations
+- Missing value handling and duplicate removal
+- Data type conversion, string methods, and datetime methods
+- GroupBy aggregation, `transform`, and `filter`
+- Reshaping with `melt`, `pivot`, `pivot_table`, `crosstab`, `stack`, and `unstack`
+- Combining data with `concat`
+- Joins and merges including inner, left, right, outer, cross, semi, anti, index, different-key, and self joins
+- Index and MultiIndex usage
+- Rolling, expanding, cumulative calculations, ranking, and binning
+- Method chaining, plotting, performance tips, and practice tasks
 
 ## VS Code Workflow
 
